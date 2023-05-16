@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background: darkcyan;
+}
+.header__nav {
+}
+.header__link {
+    margin: 0 5px;
+    font-weight: bold;
+    color: #61dafb;
+    text-decoration: none;
+}
+.header__link:active{
+    color: wheat;
+
+}
+.wrapper{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

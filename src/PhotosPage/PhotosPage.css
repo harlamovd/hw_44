@@ -1,0 +1,13 @@
+.photo_card{
+    text-align: center;
+    background: lightblue;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+}
+.photo_card__img {
+    width: 70px;
+}
+.photo_card__id {
+    margin: 5px 0;
+}

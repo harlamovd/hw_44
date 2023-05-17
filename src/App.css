@@ -43,3 +43,24 @@
   margin: 0 auto;
   text-align: center;
 }
+.author {
+  margin: 0 auto;
+  text-align: center;
+}
+.not_found {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.active_link{
+  margin: 0 5px;
+  font-weight: bold;
+  color: hotpink;
+  text-decoration: none;
+}
+.link {
+  margin: 0 5px;
+  font-weight: bold;
+  color: #61dafb;
+  text-decoration: none;
+}

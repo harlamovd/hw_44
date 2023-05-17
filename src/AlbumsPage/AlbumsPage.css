@@ -1,0 +1,13 @@
+.album_card{
+    text-align: center;
+    background: lightblue;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+}
+.album_card__img {
+    width: 70px;
+}
+.album_card__id {
+    margin: 5px 0;
+}

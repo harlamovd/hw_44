@@ -1,6 +1,7 @@
 .wrapper{
     padding-top: 10px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 20px;
 }
@@ -8,7 +9,12 @@
 
 }
 .albums_block{
-    width: 500px;
+    align-self:flex-start;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-basis: 700px;
 }
 .user_card {
     display: flex;
@@ -29,7 +35,7 @@
     flex-grow: 1;
 }
 .user_card__name{
-    margin: 0;
+    margin: 3px 0;
     font-size: 13px;
 }
 .user_card__nickname{
@@ -40,3 +46,24 @@
     color: brown;
     font-size: 10px;
 }
+.user_card__link {
+    text-decoration: none;
+    display: inline-block;
+    background: azure;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 2px;
+}
+.user_card__link_active{
+    text-decoration: none;
+    display: inline-block;
+    background: azure;
+    font-weight: bold;
+    color: hotpink;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
